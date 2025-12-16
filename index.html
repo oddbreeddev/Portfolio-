@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Daniel Aminu - Solutions Engineer focused on software, embedded systems, and building practical systems that work in real conditions." />
+    <meta name="keywords" content="Daniel Aminu, Solutions Engineer, Embedded Systems, Software Engineer, Portfolio, Frontend Developer, Odd Tech" />
+    
+    <!-- Open Graph / LinkedIn Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Daniel Aminu | Solutions Engineer" />
+    <meta property="og:description" content="Building practical systems that work in real conditions." />
+    <meta property="og:image" content="https://i.postimg.cc/CKDBNg7c/1000035025_01_1.jpg" />
+    <meta property="og:url" content="https://danielaminu.com" />
+
+    <!-- Favicon (SVG) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+    <title>Daniel Aminu | Solutions Engineer</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-text': '#f4f4f5',
+                        'secondary-text': '#a1a1aa',
+                        'background': '#0a0a0a',
+                        'surface': '#18181b',
+                        'border-color': '#27272a',
+                        'accent': '#f59e0b', /* Warm Amber for grounded, industrial feel */
+                    }
+                }
+            }
+        };
+    </script>
+
+    <style>
+        body::-webkit-scrollbar {
+            width: 8px;
+        }
+        body::-webkit-scrollbar-thumb {
+            background-color: #4b5563;
+            border-radius: 4px;
+        }
+        /* Fix for sticky header covering section titles */
+        html {
+            scroll-padding-top: 5rem; /* Adjust based on nav height */
+        }
+        .hero-title {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.05);
+        }
+        .fade-in {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "vite": "https://esm.sh/vite@^7.3.0",
+    "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+</head>
+
+<body class="bg-background text-primary-text font-sans antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
