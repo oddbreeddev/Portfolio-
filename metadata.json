@@ -1,6 +1,6 @@
 {
   "name": "Daniel Aminu Portfolio",
-  "description": "A professional portfolio for a Solutions Engineer, built with vanilla HTML5, Tailwind CSS, and JavaScript.",
+  "description": "An interactive, premium minimalist portfolio for Daniel Aminu, built with React, Tailwind CSS, and TypeScript.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
